@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  color: #fff;
+  line-height: 1.6em;
+  background-color: #f4f4f4;
+}
+
+a {
+  color: #fff;
+  text-decoration: none
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #666;
+  font-weight: 300;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+  font-weight: 100;
+}
+
+p {
+  font-weight: 100;
+  font-size: 12px;
+}
+
+#container {
+  width: 980px;
+  margin: 50px auto;
+  overflow: hidden;
+  padding: 5px;
+}
+
+img {
+  padding-right: 5px;
+}
+
+#slider {
+  width: 950px;
+  height: 360px;
+  position: relative;
+  overflow: hidden;
+  float: left;
+  padding: 3px;
+  border: solid 1px #666;
+  border-radius: 5px;
+}
+
+#slider img {
+  width: 945px;
+  height: 350px;
+}
+
+.slide {
+  position: absolute;
+}
+
+.slide-copy {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 20px;
+  background: #7f7f7f;
+  background: rgba(0,0,0,0.5);
+
+}
+
+#previous, #next {
+  margin-top: 130px;
+  position: relative;
+  z-index: 100;
+  cursor: pointer;
+}
+
+#previous {
+  margin-right: -52px;
+  margin-top: 135px;
+  float: left;
+}
+
+#next {
+  margin-left: 45px;
+  float: right;
+  margin-top: -230px;
+}
